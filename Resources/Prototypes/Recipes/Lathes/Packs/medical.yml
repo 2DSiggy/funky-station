@@ -26,6 +26,7 @@
   - HandLabeler
   - ChemistryEmptyVial
   - ChemistryEmptyVialSmall
+  - SmartVial
   - Dropper
 
 - type: latheRecipePack
@@ -95,6 +96,7 @@
   - ChemMasterMachineCircuitboard
   - CondenserMachineCircuitBoard
   - HotplateMachineCircuitboard
+  - MedicinalRefillerMachineCircuitboard
 
 ## Dynamic
 
