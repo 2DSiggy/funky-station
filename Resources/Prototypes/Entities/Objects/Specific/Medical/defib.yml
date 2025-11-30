@@ -62,7 +62,6 @@
     - type: GuideHelp
       guides:
       - MedicalDoctor
-    - type: ToggleCellDraw
 
 - type: entity
   id: Defibrillator
@@ -95,7 +94,7 @@
   suffix: One-Handed, Unpowered
 
 - type: entity
-  id: DefibrillatorCompact 
+  id: DefibrillatorCompact
   parent: [ BaseDefibrillator, PowerCellSlotMediumItem ]
   name: compact defibrillator
   description: Now in fun size!
