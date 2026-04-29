@@ -1,0 +1,48 @@
+# SmartVials - Vials that remember their last reagents.
+
+- type: entity
+  id: SmartVial
+  name: smart vial
+  parent: BaseChemistryEmptyVial
+  description: A tiny, intelligent vial. It's capable of remembering the last reagents it was filled with.
+  components:
+  - type: Sprite
+    sprite: _Funkystation/Objects/Specific/Chemistry/smart_vial.rsi
+    layers:
+    - state: base
+    - state: base-1
+      map: [ "enum.SolutionContainerLayers.Fill" ]
+      visible: false
+  - type: Item
+    size: Tiny
+    sprite: _Funkystation/Objects/Specific/Chemistry/smart_vial.rsi
+    shape:
+    - 0,0,0,0
+  - type: SolutionContainerVisuals
+    maxFillLevels: 3
+    fillBaseName: base-
+    inHandsMaxFillLevels: 3
+    inHandsFillBaseName: -fill-
+  - type: SolutionContainerManager
+    solutions:
+      beaker:
+        maxVol: 30
+  - type: SolutionTransfer
+    maxTransferAmount: 25
+    canChangeTransferAmount: true
+  - type: SmartSolutionContainer
+    solutionName: beaker
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 15
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: GlassBreak
+          params:
+            volume: -4
+      - !type:SpillBehavior { }
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
