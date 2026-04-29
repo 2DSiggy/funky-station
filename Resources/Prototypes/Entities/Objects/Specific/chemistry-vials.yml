@@ -178,7 +178,7 @@
   description: A tiny, intelligent vial. It's capable of remembering the last reagents it was filled with.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/smart_vial.rsi
+    sprite: _Funkystation/Objects/Specific/Chemistry/smart_vial.rsi
     layers:
     - state: base
     - state: base-1
@@ -186,7 +186,7 @@
       visible: false
   - type: Item
     size: Tiny
-    sprite: Objects/Specific/Chemistry/smart_vial.rsi
+    sprite: _Funkystation/Objects/Specific/Chemistry/smart_vial.rsi
     shape:
     - 0,0,0,0
   - type: SolutionContainerVisuals

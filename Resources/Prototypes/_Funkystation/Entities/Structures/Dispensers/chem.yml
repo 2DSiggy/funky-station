@@ -25,7 +25,7 @@
   - type: AccessReader
     access: [ [ "Medical" ] ]
   - type: Sprite
-    sprite: Structures/Machines/Medical/medicinal_refiller.rsi
+    sprite: _Funkystation/Structures/Machines/Medical/medicinal_refiller.rsi
     state: base
     snapCardinals: true
   - type: ActivatableUIRequiresAccess
