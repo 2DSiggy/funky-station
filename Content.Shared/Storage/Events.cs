@@ -27,7 +27,7 @@ public sealed partial class AreaPickupDoAfterEvent : DoAfterEvent
 }
 
 /// <summary>
-/// This is raised on the storage entity on an attempt to open it.
+/// Funky - This is raised on the storage entity on an attempt to open it.
 /// </summary>
 public sealed class StorageOpenUIAttemptEvent : CancellableEntityEventArgs
 {
