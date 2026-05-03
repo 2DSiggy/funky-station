@@ -8,10 +8,7 @@
   },
   "states": [
     {
-        "name": "icon_empty"
-    },
-    {
-        "name": "base"
+      "name": "base"
     },
     {
         "name": "base-1"
