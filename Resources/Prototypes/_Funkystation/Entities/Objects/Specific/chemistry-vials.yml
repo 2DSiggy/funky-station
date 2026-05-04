@@ -3,7 +3,7 @@
 - type: entity
   id: SmartVial
   name: smart vial
-  parent: BaseChemistryEmptyVial
+  parent: BaseChemistryVial
   description: A tiny, intelligent vial. It's capable of remembering the last reagents it was filled with.
   components:
   - type: Sprite
