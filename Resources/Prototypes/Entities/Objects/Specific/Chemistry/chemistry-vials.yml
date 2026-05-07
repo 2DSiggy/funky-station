@@ -223,9 +223,9 @@
   - type: SolutionContainerManager
     solutions:
       beaker:
-        maxVol: 15
+        maxVol: 30
   - type: SolutionTransfer
-    maxTransferAmount: 15
+    maxTransferAmount: 25
     canChangeTransferAmount: true
   - type: SmartSolutionContainer
     solutionName: beaker
