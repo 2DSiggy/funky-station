@@ -200,7 +200,7 @@
 - type: entity
   id: SmartVial
   name: smart vial
-  parent: BaseChemistryEmptyVial
+  parent: ChemistryEmptyVial
   description: A tiny, intelligent vial. It's capable of remembering the last reagents it was filled with.
   components:
   - type: Sprite
@@ -222,13 +222,13 @@
     inHandsFillBaseName: -fill-
   - type: SolutionContainerManager
     solutions:
-      beaker:
+      drink:
         maxVol: 30
   - type: SolutionTransfer
     maxTransferAmount: 25
     canChangeTransferAmount: true
   - type: SmartSolutionContainer
-    solutionName: beaker
+    solutionName: drink
   - type: Destructible
     thresholds:
     - trigger:
