@@ -19,9 +19,9 @@
     shape:
     - 0,0,0,0
   - type: SolutionContainerVisuals
-    maxFillLevels: 3
-    fillBaseName: base-
-    inHandsMaxFillLevels: 3
+    maxFillLevels: 6
+    fillBaseName: fill-
+    inHandsMaxFillLevels: 4
     inHandsFillBaseName: -fill-
   - type: SolutionContainerManager
     solutions:
