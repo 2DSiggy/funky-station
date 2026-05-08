@@ -25,13 +25,13 @@
     inHandsFillBaseName: -fill-
   - type: SolutionContainerManager
     solutions:
-      beaker:
+      drink:
         maxVol: 30
   - type: SolutionTransfer
     maxTransferAmount: 25
     canChangeTransferAmount: true
   - type: SmartSolutionContainer
-    solutionName: beaker
+    solutionName: drink
   - type: Destructible
     thresholds:
     - trigger:
