@@ -69,6 +69,8 @@
     solutions:
       drink: # This solution name and target volume is hard-coded in ChemMasterComponent
         maxVol: 30
+  - type: FitsInDispenser
+    solution: drink
   - type: MixableSolution
     solution: drink
   - type: RefillableSolution
@@ -85,6 +87,8 @@
     canChangeTransferAmount: true
   - type: SolutionItemStatus
     solution: drink
+  - type: SmartSolutionContainer #Funky - Medicinal Refiller compatibility
+    solutionName: drink
   - type: UserInterface
     interfaces:
       enum.TransferAmountUiKey.Key:
