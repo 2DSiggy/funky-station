@@ -26,7 +26,7 @@
     access: [ [ "Medical" ] ]
   - type: Sprite
     sprite: _Funkystation/Structures/Machines/Medical/medicinal_refiller.rsi
-    state: base
+    state: off
     snapCardinals: true
   - type: ActivatableUIRequiresAccess
   - type: StorageRequiresAccess
