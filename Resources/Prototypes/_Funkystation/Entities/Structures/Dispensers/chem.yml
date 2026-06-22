@@ -26,8 +26,11 @@
     access: [ [ "Medical" ] ]
   - type: Sprite
     sprite: _Funkystation/Structures/Machines/Medical/medicinal_refiller.rsi
-    state: off
+    state: base
     snapCardinals: true
+  - type: Icon
+    sprite: _Funkystation/Structures/Machines/Medical/medicinal_refiller.rsi
+    state: icon
   - type: ActivatableUIRequiresAccess
   - type: StorageRequiresAccess
   - type: RefillSmartContainers

@@ -8,6 +8,13 @@
   },
   "states": [
     {
+      "name": "icon"
+    },
+    {
+      "name": "base",
+      "directions": 4
+    },
+    {
       "name": "normal-unshaded",
       "directions": 4
     },
@@ -27,10 +34,6 @@
           0.5
         ]
       ]
-    },
-    {
-      "name": "off",
-      "directions": 4
     },
     {
       "name": "panel",
