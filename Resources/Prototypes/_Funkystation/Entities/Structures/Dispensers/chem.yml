@@ -27,7 +27,7 @@
   - type: Sprite
     sprite: _Funkystation/Structures/Machines/Medical/medicinal_refiller.rsi
     state: base
-    snapCardinals: true
+    snapCardinals: false # snapping to cardinals only makes sense for 1 directional sprites
   - type: Icon
     sprite: _Funkystation/Structures/Machines/Medical/medicinal_refiller.rsi
     state: icon
